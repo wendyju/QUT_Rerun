@@ -44,13 +44,6 @@ To use WoZSim in your scene:
 
 1. Drag the WoZSim prefab, in Prefabs folder, into your scene hierarchy. This nested prefab contains everything you need for a quick start. Once this prefab is in your scene you can record and playback your hand tracked VR avatar.
 
-Old way (still works):
-1. Drag all three prefabs in the Prefabs/Main folder into your scene hierarchy
-    1. You must remove any existing OVRCameraRig, the WoZSim prefab will replace this
-2. Set the WoZSimOVRCameraRig as the Rig Source reference in the WoZSimManager inspector
-
-You should now be able to record and play using the controls as indicated on the screen.
-
 For recording additional objects in your scene, follow UR's user guide and documentation.
 
 # References
